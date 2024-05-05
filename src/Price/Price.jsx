@@ -10,15 +10,15 @@ export default function Price({isMobile}){
             title: 'Написание сайта',
             basePrice: 30000,
             text: 'Создание адаптивного сайта на React. Форма обратной связи добавляется отдельно, есть возможность подключить telegram бота',
-            image: '/react.jpg'
+            image: './react.jpg'
         
         },
         {
             id: 2,
             title: 'поддержка сайта',
-            basePrice: 1500,
+            basePrice: 1000,
             text: 'Поддержка и обновление сайта в течение 1 месяца',
-            image: '/reactWithHand.jpg'
+            image: './reactWithHand.jpg'
 
         },
         {
@@ -26,21 +26,21 @@ export default function Price({isMobile}){
             title: 'Дизайн сайта',
             basePrice: 30000,
             text: 'Создание дизайна для сайта',
-            image: '/design.jpg'
+            image: './design.jpg'
         },
         {
             id: 4,
             title: 'Бот telegram',
             basePrice: 1000,
             text: 'Создание синхронного telegram бота',
-            image: '/telegram.jpg'
+            image: './telegram.jpg'
         },
         {
             id: 5,
             title: 'поддержка бота',
             basePrice: 500,
             text: 'Поддержка и обновление бота в течение 1 месяца',
-            image: '/telegramWithHand.jpg'
+            image: './telegramWithHand.jpg'
             
         },
         {
@@ -48,14 +48,14 @@ export default function Price({isMobile}){
             title: 'Консольная программа на python',
             basePrice: 500,
             text: 'Написание простой программы на python для школьников или студентов',
-            image: '/console.jpg'
+            image: './console.jpg'
         },
         {
             id: 7,
             title: 'Пригласить на собеседовние',
             basePrice: 0,
             text: 'Пригласить меня на собеседование.',
-            image: '/chat.jpg'
+            image: './chat.jpg'
         },
     ]
     return(

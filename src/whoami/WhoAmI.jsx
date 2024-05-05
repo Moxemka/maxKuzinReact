@@ -13,7 +13,7 @@ export default function WhoAmI({isMobile}) {
                 <MyAvatar
                     isMobile={isMobile}
                     variant='rounded'
-                    image={'/mealt.jpg'}
+                    image={'./mealt.jpg'}
                     sx={{
                         width: isMobile ? '90vw' : 600,
                         height: isMobile ? '90vw' : 600

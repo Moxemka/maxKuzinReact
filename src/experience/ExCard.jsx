@@ -22,7 +22,7 @@ export default function ExCard({image, imageTitle, title, text, buttonText, butt
         >
             <CardMedia
                 sx={{ height: 180 }}
-                image={image ? image : '/freelance.jpg'}
+                image={image ? image : './freelance.jpg'}
                 title={imageTitle}
             />
             <CardContent>
